@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
 
 body {
     font-family: 'Roboto' , 'Poppins', sans-serif;
@@ -10,7 +9,7 @@ body {
     height: 100%;
     content: '';
     position: absolute;
-    background: #000000a6;
+    background: #00000083;
     top: 0;
     bottom: 0;
     left:0;
@@ -26,4 +25,64 @@ body {
 }
 .carousel-part h1{
     font-size: 3.6rem;
+}
+
+/* Popular Course Section */
+.discover-containt h1 {
+    font-size: 50px;
+}
+.discover-containt p {
+    font-size: 20px;
+}
+ /* tablet device */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .content-section h1 {
+        font-size: 46px;
+    }
+    .content-section p {
+        font-size: 20px;
+    }
+    .containt-hidden{
+        display: none;
+    }
+    .popular-image img{
+        height: 240px;
+        width: 100%;
+    }
+    .popular-content {
+        margin-top: -10px;
+    }
+    .popular-content h4 {
+        font-size: 35px;
+    }
+    .popular-content  p {
+        font-size: 20px;
+    }
+}
+    
+/* Mobile device */
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .content-section h1 {
+        font-size: 40px;
+    }
+    .content-section p {
+        font-size: 20px;
+    }
+    .containt-hidden{
+        display: none;
+    }
+    .popular-image img{
+        height: 300px;
+        width: 100%;
+    }
+    .popular-image {
+        flex-direction: column;
+    }
+    .popular-content h4 {
+        font-size: 35px;
+    }
+    .popular-content  p {
+        font-size: 25px;
+    }
 }
