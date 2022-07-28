@@ -55,7 +55,28 @@ body {
     margin: 0 auto;
     margin-top: 100px;
 }
+/* Students Section */
+.successfull-students{
+    margin-top: 120px;
+}
+.meet-students {
+    font-size: 50px;
+    font-weight: 700;
+}
 
+
+.student-btn{
+    font-weight: 600;
+    padding: 15px 40px;
+    background-color:#289BDE;
+    color: #fff;
+    font-size: 1.3rem;
+    transition: all .3s;
+}
+.student-btn:hover{
+    background-color: #248fc4;
+    color: #fff;
+}
 
 
 
