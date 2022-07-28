@@ -28,12 +28,14 @@ body {
 }
 
 /* Popular Course Section */
+
 .discover-containt h1 {
     font-size: 50px;
 }
 .discover-containt p {
     font-size: 20px;
 }
+
 /* Elearning section */
 
 .elearning-section {
@@ -55,7 +57,9 @@ body {
     margin: 0 auto;
     margin-top: 100px;
 }
+
 /* Students Section */
+
 .successfull-students{
     margin-top: 120px;
 }
@@ -63,8 +67,6 @@ body {
     font-size: 50px;
     font-weight: 700;
 }
-
-
 .student-btn{
     font-weight: 600;
     padding: 15px 40px;
@@ -83,8 +85,17 @@ body {
     font-size: 45px;
 }
 
-
-
+/* Footer Section */
+.social-icon i{
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.social-icon i:hover{
+    background-color: #248fc4;
+}
 
  /* tablet device */
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -117,7 +128,11 @@ body {
     .elearning-content p {
         font-size: 20px;
     }
+    .companies{
+        display: none;
+    }
 }
+
     
 /* Mobile device */
 @media screen and (min-width: 320px) and (max-width:767px) {
@@ -149,5 +164,8 @@ body {
     }
     .elearning-content p {
         font-size: 20px;
+    }
+    .companies{
+        display: none;
     }
 }
