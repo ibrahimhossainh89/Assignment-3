@@ -47,7 +47,14 @@ body {
     margin-bottom: 20px;
 }
 
-
+/* Ready to join section */
+.ready-to-join{
+    color: #ffffff;
+    height:300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
 
 
