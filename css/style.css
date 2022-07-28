@@ -34,6 +34,26 @@ body {
 .discover-containt p {
     font-size: 20px;
 }
+/* Elearning section */
+
+.elearning-section {
+    margin-top: 120px;
+}
+.elearning {
+    background-color: #F4FAFD;
+}
+.elearning-content h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
  /* tablet device */
 @media screen and (min-width: 768px) and (max-width: 1023px){
 
@@ -57,6 +77,12 @@ body {
         font-size: 35px;
     }
     .popular-content  p {
+        font-size: 20px;
+    }
+    .elearning-content h3{
+        margin-top: 60px;
+    }
+    .elearning-content p {
         font-size: 20px;
     }
 }
@@ -84,5 +110,12 @@ body {
     }
     .popular-content  p {
         font-size: 25px;
+    }
+    .elearning-content h3{
+        margin-top: 60px;
+        font-size: 45px;
+    }
+    .elearning-content p {
+        font-size: 20px;
     }
 }
