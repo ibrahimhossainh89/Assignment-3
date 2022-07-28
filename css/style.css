@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto' , 'Poppins', sans-serif;
+}
+.banner{
+    border-radius: 15px;
+}
+.banner::before{
+    height: 100%;
+    content: '';
+    position: absolute;
+    background: #000000a6;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    z-index: 1;
+    
+}
+.carousel-part {
+    z-index: 999;
+}
+.banner img{
+    height: 700px;
+}
+.carousel-part h1{
+    font-size: 3.6rem;
+}
