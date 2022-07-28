@@ -29,7 +29,7 @@ body {
 /* Popular Course Section */
 
 .discover-containt h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 .discover-containt p {
     font-size: 20px;
@@ -44,17 +44,14 @@ body {
     background-color: #F4FAFD;
 }
 .elearning-content h3{
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
-/* Ready to join section */
+/* Ready to join */
+
 .ready-to-join{
-    color: #ffffff;
     height:300px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 100px;
 }
 
 /* Students Section */
@@ -63,16 +60,8 @@ body {
     margin-top: 120px;
 }
 .meet-students {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
-}
-.student-btn{
-    font-weight: 600;
-    padding: 15px 40px;
-    background-color:#289BDE;
-    color: #fff;
-    font-size: 1.3rem;
-    transition: all .3s;
 }
 .student-btn:hover{
     background-color: #248fc4;
